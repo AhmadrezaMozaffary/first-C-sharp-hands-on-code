@@ -10,41 +10,40 @@ public class Calculator
 {
     double _output = 0;
 
-    private void printOnScreen(string msg = "calculated")
+    private void PrintOnScreen(string msg = "calculated")
     {
         Console.WriteLine("Output " + msg + " and final result is " + _output + " .");
     }
 
-    public void plus(double increaseBy)
+    public void Plus(double increaseBy)
     {
         _output += increaseBy;
 
-
-        printOnScreen(" increases by " + increaseBy);
+        PrintOnScreen(" increases by " + increaseBy);
 
     }
 
-    public void minus(double decreaseBy) {
+    public void Minus(double decreaseBy) {
         _output -= decreaseBy;
 
-        printOnScreen(" decerases by " + decreaseBy);
+        PrintOnScreen(" decerases by " + decreaseBy);
     }
 
-    public void multiply(double multiplyBy) {
+    public void Multiply(double multiplyBy) {
         _output *= multiplyBy;
 
-        printOnScreen(" multiples by " + multiplyBy);
+        PrintOnScreen(" multiples by " + multiplyBy);
     }
 
-    public void divide(double divideBy)
+    public void Divide(double divideBy)
     {
         _output /= divideBy;
 
-        printOnScreen(" divides by " + divideBy);
+        PrintOnScreen(" divides by " + divideBy);
     }
 
-    public void printResult() {
-        printOnScreen();
+    public void PrintResult() {
+        PrintOnScreen();
     }
 
     public void Clear() { 
