@@ -15,6 +15,5 @@ clc.multiply(-1); // 85.75
 clc.minus(0.75); // 85
 
 clc.printResult(); // 85
-clc.Clear(
-    );
+clc.Clear();
 clc.printResult(); // 0
