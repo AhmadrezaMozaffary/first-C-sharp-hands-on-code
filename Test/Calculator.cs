@@ -19,6 +19,7 @@ public class Calculator
     {
         _output += increaseBy;
 
+
         printOnScreen(" increases by " + increaseBy);
 
     }
